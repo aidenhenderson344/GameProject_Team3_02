@@ -10,7 +10,7 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     // UI Elements
-    public Image blackScreenImage; 
+    public Image blackScreenImage;
     public GameObject winScreen;
     public TMP_Text countText;
     
@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Reset the UI for the start of the game
         blackScreenImage.color = Color.clear;
         countText.text = "Collected: 0";
     }
@@ -58,8 +59,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Add to the Collectible Count!");
 
-        // ++ adds one to the current value of an int variable
-        collectibleCount++;
+        collectibleCount++; // ++ adds one to the current value of an int variable
         countText.text = "Collected: " + collectibleCount.ToString();
         Debug.Log($"New Collectible Count is {collectibleCount}");
 
@@ -77,10 +77,6 @@ public class GameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = true;
     }
-
-    //
-    // Provided Functions
-    //
 
     // These three functions can be added to buttons in editor to run them
 
@@ -105,8 +101,8 @@ public class GameManager : MonoBehaviour
     // This one fades the alpha of the blackScreenImage rather than having it pop in
     IEnumerator SceneLoadTimer(int scene)
     {
-        float timer = 0f;
-        float duration = 1f;
+        float timer = 0f; // Create a float to increment up over time
+        float duration = 1f; // How long should the fade last?
 
         while(timer < duration)
         {
