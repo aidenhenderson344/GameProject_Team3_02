@@ -5760,7 +5760,7 @@ GameObject:
   - component: {fileID: 4459864849699133244}
   - component: {fileID: 4459864849699133246}
   - component: {fileID: 4459864849699133245}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Stamina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5806,7 +5806,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 7efa049bd6fe75b45a0e6361f6ecc81f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5834,7 +5834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4459864849755743594}
   - component: {fileID: 4459864849755743595}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: SprintBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5859,7 +5859,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 0, y: 250}
   m_SizeDelta: {x: -100, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!225 &4459864849755743595
@@ -5913,7 +5913,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b1ef15b42c140554093c3160c665101f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5942,7 +5942,7 @@ GameObject:
   - component: {fileID: 4459864850262773096}
   - component: {fileID: 4459864850262773098}
   - component: {fileID: 4459864850262773097}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: StaminaBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6035,7 +6035,7 @@ Transform:
   m_GameObject: {fileID: 4459864850351567209}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.06, y: 0.08, z: -0.03}
+  m_LocalPosition: {x: 0.06, y: -0.408, z: -0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6202,12 +6202,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 4459864850351567211}
-  fov: 30
+  fov: 60
   invertCamera: 0
   cameraCanMove: 1
-  mouseSensitivity: 2
-  maxLookAngle: 50
-  lockCursor: 1
+  mouseSensitivity: 500
+  maxLookAngle: 60
+  lockCursor: 0
   crosshair: 1
   crosshairImage: {fileID: 0}
   crosshairSprite: {fileID: 0}
@@ -6218,7 +6218,7 @@ MonoBehaviour:
   zoomFOV: 30
   zoomStepTime: 5
   playerCanMove: 1
-  walkSpeed: 3
+  walkSpeed: 4
   maxVelocityChange: 10
   enableSprint: 1
   unlimitedSprint: 0
@@ -6226,18 +6226,18 @@ MonoBehaviour:
   sprintSpeed: 9
   sprintDuration: 2
   sprintCooldown: 2
-  sprintFOV: 50
-  sprintFOVStepTime: 2
+  sprintFOV: 60
+  sprintFOVStepTime: 0.5
   useSprintBar: 1
-  hideBarWhenFull: 1
+  hideBarWhenFull: 0
   sprintBarCG: {fileID: 4459864849755743595}
   sprintBarBG: {fileID: 4459864850262773097}
   sprintBar: {fileID: 4459864849699133245}
-  sprintBarWidthPercent: 0.3
-  sprintBarHeightPercent: 0.02
+  sprintBarWidthPercent: 0.5
+  sprintBarHeightPercent: 0.025
   enableJump: 1
   jumpKey: 32
-  jumpPower: 6
+  jumpPower: 8
   enableCrouch: 0
   holdToCrouch: 1
   crouchKey: 306
@@ -6245,8 +6245,8 @@ MonoBehaviour:
   speedReduction: 0.5
   enableHeadBob: 1
   joint: {fileID: 4459864850420385769}
-  bobSpeed: 15
-  bobAmount: {x: 0, y: 0.4, z: 0}
+  bobSpeed: 14
+  bobAmount: {x: 0, y: 0.3, z: 0}
 --- !u!1 &4459864851103456255
 GameObject:
   m_ObjectHideFlags: 0
@@ -6326,8 +6326,8 @@ RectTransform:
   m_GameObject: {fileID: 4459864851203405248}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 432471030}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6350,7 +6350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -6358,7 +6358,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: be4ce60e2c9768c44b9b10b9c5258045, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
