@@ -6320,7 +6320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 4459864850351567211}
-  fov: 60
+  fov: 80
   invertCamera: 0
   cameraCanMove: 1
   mouseSensitivity: 500
@@ -6341,10 +6341,10 @@ MonoBehaviour:
   enableSprint: 1
   unlimitedSprint: 0
   sprintKey: 304
-  sprintSpeed: 9
-  sprintDuration: 2
-  sprintCooldown: 2
-  sprintFOV: 60
+  sprintSpeed: 10
+  sprintDuration: 1
+  sprintCooldown: 1
+  sprintFOV: 90
   sprintFOVStepTime: 0.5
   useSprintBar: 1
   hideBarWhenFull: 0
@@ -6355,7 +6355,7 @@ MonoBehaviour:
   sprintBarHeightPercent: 0.025
   enableJump: 1
   jumpKey: 32
-  jumpPower: 8
+  jumpPower: 6
   enableCrouch: 0
   holdToCrouch: 1
   crouchKey: 306
@@ -6363,8 +6363,8 @@ MonoBehaviour:
   speedReduction: 0.5
   enableHeadBob: 1
   joint: {fileID: 4459864850420385769}
-  bobSpeed: 14
-  bobAmount: {x: 0, y: 0.3, z: 0}
+  bobSpeed: 16
+  bobAmount: {x: 0, y: 0.15, z: 0}
 --- !u!1 &4459864851103456255
 GameObject:
   m_ObjectHideFlags: 0
