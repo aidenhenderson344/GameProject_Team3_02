@@ -7456,8 +7456,8 @@ MonoBehaviour:
   fov: 80
   invertCamera: 0
   cameraCanMove: 1
-  mouseSensitivity: 50
-  maxLookAngle: 60
+  mouseSensitivity: 95
+  maxLookAngle: 75
   lockCursor: 0
   crosshair: 1
   crosshairImage: {fileID: 0}
@@ -7469,12 +7469,12 @@ MonoBehaviour:
   zoomFOV: 30
   zoomStepTime: 5
   playerCanMove: 1
-  walkSpeed: 1
+  walkSpeed: 3
   maxVelocityChange: 10
   enableSprint: 1
   unlimitedSprint: 0
   sprintKey: 304
-  sprintSpeed: 8
+  sprintSpeed: 9
   sprintDuration: 1
   sprintCooldown: 1
   sprintFOV: 90
