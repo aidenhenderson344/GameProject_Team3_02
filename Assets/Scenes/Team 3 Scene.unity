@@ -7456,7 +7456,7 @@ MonoBehaviour:
   fov: 80
   invertCamera: 0
   cameraCanMove: 1
-  mouseSensitivity: 500
+  mouseSensitivity: 50
   maxLookAngle: 60
   lockCursor: 0
   crosshair: 1
@@ -7469,12 +7469,12 @@ MonoBehaviour:
   zoomFOV: 30
   zoomStepTime: 5
   playerCanMove: 1
-  walkSpeed: 4
+  walkSpeed: 1
   maxVelocityChange: 10
   enableSprint: 1
   unlimitedSprint: 0
   sprintKey: 304
-  sprintSpeed: 10
+  sprintSpeed: 8
   sprintDuration: 1
   sprintCooldown: 1
   sprintFOV: 90
@@ -7488,7 +7488,7 @@ MonoBehaviour:
   sprintBarHeightPercent: 0.025
   enableJump: 1
   jumpKey: 32
-  jumpPower: 6
+  jumpPower: 3
   enableCrouch: 0
   holdToCrouch: 1
   crouchKey: 306
