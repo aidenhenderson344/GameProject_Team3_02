@@ -63,7 +63,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 0eea1f39ec996d040872aa189727d586, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: aaf85e74db52a15438f35733badb0c35, type: 2}
+      objectReference: {fileID: 2100000, guid: d3580ff97579128449e15499919969ca, type: 2}
     - target: {fileID: 919132149155446097, guid: 0eea1f39ec996d040872aa189727d586, type: 3}
       propertyPath: m_Name
       value: ASSET_Wooden Bridge 1

@@ -51,7 +51,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: dee6fff72f030794bae227d195e0ad55, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1d8cb702fa8aa0a40b319cf12d61e756, type: 2}
+      objectReference: {fileID: 2100000, guid: fb3c9cdc47a3f6443b97e37b1a7d3356, type: 2}
     - target: {fileID: 919132149155446097, guid: dee6fff72f030794bae227d195e0ad55, type: 3}
       propertyPath: m_Name
       value: ASSET_Jumping Puzzle Mushroom 1
