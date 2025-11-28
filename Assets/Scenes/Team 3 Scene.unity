@@ -865,6 +865,17 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &291211512 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6526512400930497236, guid: 1d3d280d9d6bf034c8be45c05cabdb79, type: 3}
+  m_PrefabInstance: {fileID: 1933735262}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c40f5432255c044926cd4fcc4d8d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &292340036 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3376188979591537281, guid: 3b95e2983b252fe4f8d596e9e4961692, type: 3}
@@ -4093,7 +4104,7 @@ MonoBehaviour:
   countText: {fileID: 103032571}
   winCount: 5
   collectibles:
-  - {fileID: 0}
+  - {fileID: 291211512}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -5662,7 +5673,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6526512400930497236, guid: 1d3d280d9d6bf034c8be45c05cabdb79, type: 3}
       propertyPath: isCollected
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008735990969729160, guid: 1d3d280d9d6bf034c8be45c05cabdb79, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8146770809757694951, guid: 1d3d280d9d6bf034c8be45c05cabdb79, type: 3}
       propertyPath: m_LocalPosition.x
