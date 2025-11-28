@@ -3168,7 +3168,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7696271432117268999, guid: 47684ac50c48d0d41b2055fd1b63fbfa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.008
+      value: 9.84
       objectReference: {fileID: 0}
     - target: {fileID: 7696271432117268999, guid: 47684ac50c48d0d41b2055fd1b63fbfa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4102,13 +4102,9 @@ MonoBehaviour:
   blackScreenImage: {fileID: 1163260850}
   winScreen: {fileID: 1776989874}
   countText: {fileID: 103032571}
-  winCount: 5
+  winCount: 1
   collectibles:
   - {fileID: 291211512}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!4 &1562734780
 Transform:
   m_ObjectHideFlags: 0
@@ -5667,6 +5663,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4290222412900610886, guid: 1d3d280d9d6bf034c8be45c05cabdb79, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290222412900610886, guid: 1d3d280d9d6bf034c8be45c05cabdb79, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5262711751516384709, guid: 1d3d280d9d6bf034c8be45c05cabdb79, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -5681,15 +5685,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8146770809757694951, guid: 1d3d280d9d6bf034c8be45c05cabdb79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 117.758
+      value: 102.63
       objectReference: {fileID: 0}
     - target: {fileID: 8146770809757694951, guid: 1d3d280d9d6bf034c8be45c05cabdb79, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.191
+      value: 8.346
       objectReference: {fileID: 0}
     - target: {fileID: 8146770809757694951, guid: 1d3d280d9d6bf034c8be45c05cabdb79, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 140.516
+      value: 140.573
       objectReference: {fileID: 0}
     - target: {fileID: 8146770809757694951, guid: 1d3d280d9d6bf034c8be45c05cabdb79, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8423,10 +8427,10 @@ MonoBehaviour:
   enableJump: 1
   jumpKey: 32
   jumpPower: 3
-  enableCrouch: 0
+  enableCrouch: 1
   holdToCrouch: 1
   crouchKey: 306
-  crouchHeight: 0.75
+  crouchHeight: 0.2
   speedReduction: 0.5
   enableHeadBob: 1
   joint: {fileID: 4459864850420385769}
