@@ -51,7 +51,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: c73ea671a60091e41a00a825141b2a04, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0e788799bfe298f44a87dd84627e6ffc, type: 2}
+      objectReference: {fileID: 2100000, guid: 363fafbc5de943b4faeca26f48a3d32f, type: 2}
     - target: {fileID: 919132149155446097, guid: c73ea671a60091e41a00a825141b2a04, type: 3}
       propertyPath: m_Name
       value: NPC_Farm Chicken 1
