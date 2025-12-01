@@ -13196,6 +13196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ASSET_Haybale
       objectReference: {fileID: 0}
+    - target: {fileID: 6328406335514448798, guid: da01f4f5eafd0bf43aeb46f1d73ee1e9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: db1050239770c8341ac92bd74b91a65b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15869,15 +15873,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6987310073541328574, guid: 7114bb6224381a84792c5b1632c991b5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 102.885765
+      value: 100.24
       objectReference: {fileID: 0}
     - target: {fileID: 6987310073541328574, guid: 7114bb6224381a84792c5b1632c991b5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.0695286
+      value: 7.403
       objectReference: {fileID: 0}
     - target: {fileID: 6987310073541328574, guid: 7114bb6224381a84792c5b1632c991b5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 135.35382
+      value: 143.225
       objectReference: {fileID: 0}
     - target: {fileID: 6987310073541328574, guid: 7114bb6224381a84792c5b1632c991b5, type: 3}
       propertyPath: m_LocalRotation.w
