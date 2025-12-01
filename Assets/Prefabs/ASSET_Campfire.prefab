@@ -4952,7 +4952,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.01, y: -0.073, z: -0.04}
-  m_LocalScale: {x: 0.05591404, y: 0.05591404, z: 0.05591404}
+  m_LocalScale: {x: 0.05591404, y: 0.05591404, z: 0.078961805}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8088624273953884219}
@@ -4973,7 +4973,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
