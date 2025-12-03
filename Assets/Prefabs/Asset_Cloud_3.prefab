@@ -9,6 +9,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4c4f7798b66138b46bd6f96eb5b509a2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.3915777
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4c4f7798b66138b46bd6f96eb5b509a2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8.835734
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4c4f7798b66138b46bd6f96eb5b509a2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.9492497
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4c4f7798b66138b46bd6f96eb5b509a2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 124.47245
       objectReference: {fileID: 0}
@@ -48,6 +60,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4c4f7798b66138b46bd6f96eb5b509a2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 20da81f4a457f204d9a3e28ed12b148d, type: 2}
     - target: {fileID: 919132149155446097, guid: 4c4f7798b66138b46bd6f96eb5b509a2, type: 3}
       propertyPath: m_Name
       value: Asset_Cloud_3
