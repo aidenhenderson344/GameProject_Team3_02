@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ASSET_Alpha Card_Fern
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ce20ea90923e5524a83401866cda2ab3, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
