@@ -63,7 +63,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bf78e39e4b644a942a6bcf167fe04f6f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 861446fc1b03240438e136592625502e, type: 2}
+      objectReference: {fileID: 2100000, guid: efaed664800011e40b1d02c32bb13980, type: 2}
     - target: {fileID: 919132149155446097, guid: bf78e39e4b644a942a6bcf167fe04f6f, type: 3}
       propertyPath: m_Name
       value: ASSET Boulder 4
