@@ -63,7 +63,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 99c20a23d064af64f93b09cc214de8e5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: cbcc56dc3774282448388d0ce488141e, type: 2}
+      objectReference: {fileID: 2100000, guid: 3a23c9f6ff8c72a45914d80c77cbae0b, type: 2}
     - target: {fileID: 919132149155446097, guid: 99c20a23d064af64f93b09cc214de8e5, type: 3}
       propertyPath: m_Name
       value: Asset Tree Round
