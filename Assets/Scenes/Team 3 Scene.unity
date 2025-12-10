@@ -3869,6 +3869,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8140521466917318049, guid: 0560eb642e8d00349a1e5ba865f75a37, type: 3}
   m_PrefabInstance: {fileID: 890969247}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &405714115
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8195456767383351331, guid: 70dd53f88d8cfd049ad2d642905d0fe1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 180.37561
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195456767383351331, guid: 70dd53f88d8cfd049ad2d642905d0fe1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.997255
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195456767383351331, guid: 70dd53f88d8cfd049ad2d642905d0fe1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 46.042427
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195456767383351331, guid: 70dd53f88d8cfd049ad2d642905d0fe1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.71612877
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195456767383351331, guid: 70dd53f88d8cfd049ad2d642905d0fe1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.23221986
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195456767383351331, guid: 70dd53f88d8cfd049ad2d642905d0fe1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.46341643
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195456767383351331, guid: 70dd53f88d8cfd049ad2d642905d0fe1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.46741715
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195456767383351331, guid: 70dd53f88d8cfd049ad2d642905d0fe1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -49.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195456767383351331, guid: 70dd53f88d8cfd049ad2d642905d0fe1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 43.992
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195456767383351331, guid: 70dd53f88d8cfd049ad2d642905d0fe1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 44.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 8860775292856494745, guid: 70dd53f88d8cfd049ad2d642905d0fe1, type: 3}
+      propertyPath: m_Name
+      value: Asset_Campfire_Alt_Cindy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 70dd53f88d8cfd049ad2d642905d0fe1, type: 3}
 --- !u!1001 &408150174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29982,3 +30039,4 @@ SceneRoots:
   - {fileID: 1117266599}
   - {fileID: 1729167716}
   - {fileID: 238097506}
+  - {fileID: 405714115}
